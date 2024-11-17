@@ -1,0 +1,294 @@
+*{
+margin: 0;
+padding: 0;
+outline: none;
+border: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+box-sizing: border-box;
+}
+button{
+transition: 0.3s;
+cursor: pointer;
+}
+body{
+text-align: center;
+background: white;
+background: yellow;
+}
+header{
+text-align: start;
+display: flex;
+justify-content: space-between;
+padding: 3%;
+box-shadow: 0 0 4px black;
+}
+header button{
+transform: rotate(90deg);
+font-size: 1.5rem;
+background: transparent;
+}
+main{
+margin-top: 5%;
+}
+.par1{
+margin: 0 auto;
+padding: 5%;
+border: 3px solid skyblue;
+border-radius: 1rem;
+width: 70%;
+background: lime;
+}
+ul h3{
+padding: 0 0 4% 0;
+}
+ul li{
+padding: 0.5%;
+}
+ul button{
+width: 100%;
+height: 3vh;
+margin-top: 8%;
+border-radius: 2rem;
+border: 3px solid skyblue;
+background: yellow;
+}
+.par2{
+margin: 0 auto;
+margin-top: 4%;
+padding: 5%;
+border: 3px solid skyblue;
+border-radius: 1rem;
+width: 70%;
+background: lime;
+}
+.par3{
+margin: 0 auto;
+margin-top: 4%;
+padding: 5%;
+border: 3px solid skyblue;
+border-radius: 1rem;
+width: 70%;
+background: lime;
+}
+a{
+color: dodgerblue;
+font-weight: normal;
+}
+dialog{
+margin: 0 auto;
+text-align: center;
+width: 100%;
+padding: 3% 0;
+border-radius: 1rem;
+box-shadow: 0 0 3px black;
+}
+.signDialog{
+margin: 0 auto;
+animation: 1.5s signDialog ease-in;
+}
+@keyframes signDialog{
+from{
+transform: translateY(-110%)
+}
+to{
+
+}
+}
+.signDialog .closeSignDialog{
+color: red;
+margin-right: 3%;
+text-align: end;
+font-size: 1.6rem;
+font-family: 'Times New Roman', Times, serif;
+}
+.signDialog .closeSignDialog:active{
+color: black;
+}
+.loginForm{
+margin: 0 auto;
+text-align: start;
+width: 100%;
+padding: 2% 4%;
+}
+.loginForm h3{
+padding: 2% 0;
+}
+.loginForm input{
+width: 50%;
+height: 3vh;
+padding: 0 2%;
+background: yellow;
+border: 2px solid black;
+margin-bottom: 2%;
+border-radius: 4px;
+}
+.loginForm button{
+width: 50%;
+height: 3vh;
+background: yellow;
+border: 2px solid black;
+border-radius: 4px;
+}
+.loginForm button:active{
+background: white;
+}
+.loginForm button:hover{
+background: white;
+}
+.loginForm p{
+padding: 1.5% 0;
+}
+.registerForm{
+margin: 0 auto;
+text-align: start;
+width: 100%;
+padding: 2% 4%;
+}
+.registerForm h3{
+padding: 2% 0;
+}
+.registerForm input{
+width: 50%;
+height: 3vh;
+padding: 0 2%;
+background: yellow;
+border: 2px solid black;
+margin-bottom: 2%;
+border-radius: 4px;
+}
+.registerForm button{
+width: 50%;
+height: 3vh;
+background: yellow;
+border: 2px solid black;
+border-radius: 4px;
+}
+.registerForm button:active{
+background: white;
+}
+.registerForm button:hover{
+background: white;
+}
+.registerForm p{
+padding: 1.5% 0;
+}
+.coinProgress{
+margin: 0 auto;
+text-align: start;
+width: 40%;
+margin-bottom: 10%;
+display: flex;
+justify-content: space-between;
+}
+.coinProgress button{
+padding: 0 1%;
+background: lime;
+border-radius: 2px;
+box-shadow: 0 0 2px black;
+}
+.mainMining{
+margin: 0 auto;
+margin-top: 3%;
+}
+.mainMining div{
+margin: 0 auto;
+width: 50%;
+text-align: start;
+padding: 4%;
+box-shadow: 0 0 5px black;
+border-radius: 7px;
+margin-bottom: 4%;
+}
+.mainMining div:hover{
+box-shadow: 0 0 5px red;
+}
+.mainMining div img{
+width: 100%;
+margin-left: 0%;
+margin-bottom: 10%;
+border-radius: 1rem;
+}
+.mainMining button{
+width: 30%;
+height: 3vh;
+background: lime;
+color: black;
+border-radius: 5px;
+border: 1px solid black;
+margin: 3% 0;
+}
+.mainMining button:active{
+background: white;
+}
+.mainMining button:hover{
+background: white;
+}
+.mainMining li{
+color: dodgerblue;
+}
+.purchaseDialog{
+padding: 3% 5%;
+text-align: start;
+animation: 1.5s purchaseDialog ease-in;
+}
+@keyframes purchaseDialog{
+from{
+transform: translateY(-110%)
+}
+to{
+
+}
+}
+.purchaseDialog p{
+cursor: pointer;
+text-align: center;
+margin-left: 95%;
+color: red;
+font-weight: bolder;
+font-size: 1.5rem;
+padding: 1%;
+border-radius: 2px;
+width: 5%;
+box-shadow: 0 0 3px red;
+}
+.purchaseDialog h3{
+padding: 0 0 5% 0;
+}
+.purchaseDialog div{
+display: flex;
+flex-direction: column;
+}
+.purchaseDialog div input{
+padding: 0 2%;
+margin-bottom: 2%;
+margin-top: 2%;
+height: 3vh;
+border-radius: 3px;
+width: 50%;
+background: yellow;
+border: 2px solid black;
+}
+.purchaseDialog div select{
+width: 50%;
+background: yellow;
+padding: 2% 3%;
+}
+.purchaseDialog button{
+width: 50%;
+height: 3vh;
+margin-top: 1.5%;
+border: 2px solid black;
+background: yellow;
+}
+.purchaseDialog button:active{
+background: white;
+}
+.purchaseDialog button:hover{
+background: white;
+}
+.purchaseDialog div h4{
+margin: 3% 0;
+}
+.purchaseDialog div h4 span{
+color: dodgerblue;
+}
