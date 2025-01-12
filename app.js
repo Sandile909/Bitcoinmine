@@ -8,7 +8,7 @@ templateUrl: 'home.html'
 templateUrl: 'mining.html'
 })
 .otherwise({
-redirectTo: '/mining'
+redirectTo: '/home'
 })
 }]);
 app.controller('MainCtrl', ['$scope', '$location', '$interval', function($scope, $location, $interval){
